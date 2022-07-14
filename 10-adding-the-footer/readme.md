@@ -1,9 +1,9 @@
-### Estilizando a lista 
+### Estilizando o footer
 
-* Na lista em si, resetamos o CSS, removemos os estilos da lista (markers) e fizemos com que os elementos filhos (inline-block) fossem alinhados ao centro com text-align.
+* No footer, aplicamos um background black, colocamos um espaçamento interno de 32px, e um margin-top de 48px.
 
-* Para os \<li> foram atribuidos 30% de largura, colocamos como inline-block e alinhados verticalmente ao topo.
+* Os estilos da lista foram resetados, e os textos alinhados ao centro.
 
-* Tinha uma \<div> vazia nos \<li> que foi transformada num círculo, e alinhada ao centro com margin: 0 auto.
+* Cada item da lista virou inline-block, com margin 0 16px
 
-* Por fim, mas não menos importante, a descrição de cada item da lista teve seu texto alinhado ao centro, espessura colocada como bold e tamanho de 20px. 
+* Cada anchor tag foi estilizada com cor branca e sem sublinhado, e quando for :hover ou :active ficara a cor #ccc.
