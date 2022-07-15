@@ -1,9 +1,7 @@
-### Estilizando o footer
+### Pagina de pacotes de hospedagem
 
-* No footer, aplicamos um background black, colocamos um espaçamento interno de 32px, e um margin-top de 48px.
+* Criamos um novo diretório para a nossa página de pacotes de hospedagem, lá colocamos um arquivo html e um css correspodentes à página de pacotes, essa nova página contém o mesmo header e footer da página principal.
 
-* Os estilos da lista foram resetados, e os textos alinhados ao centro.
+* Criamos um CSS compartilhável, que contém os estilos de reset e dos elementos fixos como header e footer, logo ele é importado tanto pela página principal quanto pelas outras que tiverem header e footer.
 
-* Cada item da lista virou inline-block, com margin 0 16px
-
-* Cada anchor tag foi estilizada com cor branca e sem sublinhado, e quando for :hover ou :active ficara a cor #ccc.
+* Uma coisa que foi aprendida durante as buscas na internet no momento dessa aula é que, o flex: 1; consegue lidar com elementos que tem margin, então ele consegue preencher o necessário sem empurrar o elemento.
