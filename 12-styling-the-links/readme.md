@@ -1,7 +1,7 @@
-### Pagina de pacotes de hospedagem
+### Estilizando os links
 
-* Criamos um novo diretório para a nossa página de pacotes de hospedagem, lá colocamos um arquivo html e um css correspodentes à página de pacotes, essa nova página contém o mesmo header e footer da página principal.
+* Foi colocado um padding-top de 32px para o elemento main.
 
-* Criamos um CSS compartilhável, que contém os estilos de reset e dos elementos fixos como header e footer, logo ele é importado tanto pela página principal quanto pelas outras que tiverem header e footer.
+* As sections foram estilizados com width de 80%, margin no eixo y de 16px, e bordar de 4px (no top, right e bottom).
 
-* Uma coisa que foi aprendida durante as buscas na internet no momento dessa aula é que, o flex: 1; consegue lidar com elementos que tem margin, então ele consegue preencher o necessário sem empurrar o elemento.
+* Os elementos de ancora viraram display do tipo block para que preenchesse toda a área do pai, assim fica com todo o espaço da section clicavel, foi removido o text-decoration e colocado padding em todos os lados de 32px.
