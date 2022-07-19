@@ -1,7 +1,13 @@
-### Estilizando os links
+### Estilizando os pacotes.
 
-* Foi colocado um padding-top de 32px para o elemento main.
+* Para o h1 a classe *package__title*, para o h2 a classe *package__subtitle* e para paragrafo a classe *package__info*.
 
-* As sections foram estilizados com width de 80%, margin no eixo y de 16px, e bordar de 4px (no top, right e bottom).
+* O *package__subtitle* recebeu uma cor de letra cinza.
 
-* Os elementos de ancora viraram display do tipo block para que preenchesse toda a área do pai, assim fica com todo o espaço da section clicavel, foi removido o text-decoration e colocado padding em todos os lados de 32px.
+* O *package__info* recebeu um background branco, um padding de 16px em toda a volta, um border verde escuro, font-size de 20px e cor da letra a mesma do background.
+
+* Cada pacote recebeu uma classe com modificador (vide BEM), onde cada recebeu um background diferente.
+
+* Para enfatizar o pacote premium, usando a classe modificadora (*package--premium*) combinando com a *package__title* foi colocado uma color branca. Ainda com a classe modificadora do pacote premium também foi estilizado o h2, com color #bbb.
+
+* Por fim, foi aidcionado um *:hover* e *:active* na classe *package* para adicionar um box-shadow quando esses eventos acontecerem.
