@@ -1,13 +1,12 @@
-### Estilizando os pacotes.
+### Adicionando float para nosso pacote (free)
 
-* Para o h1 a classe *package__title*, para o h2 a classe *package__subtitle* e para paragrafo a classe *package__info*.
+* Para que o pacote do plano __free__ ficasse a direita da tela, foi usado a propriedade *float* com o valor *right* para que ele fosse colocado a direita.
 
-* O *package__subtitle* recebeu uma cor de letra cinza.
+* Lembrando que o float ele funciona tirando o elemento do fluxo normal da página e colando ele a extrema direita ou esquerda, com isso os elementos que são irmãos desse elemento flutuantes ficarão embaixo dele e o que for texto ficará ao lado.
 
-* O *package__info* recebeu um background branco, um padding de 16px em toda a volta, um border verde escuro, font-size de 20px e cor da letra a mesma do background.
+* Para resolver esse problema do elemento irmão ficar embaixo do elemento flutuante, podemos usar a propriedade *clear* que especifica se pode haver elementos flutuantes ao lado do elemento irmão que não é flutuante ou se esse elemento irmão do flutuante deve ir para baixo do elemento flutuante, que foi o que fizemos ali com a \<div> que tem a classe *fix-free*.
+  
+* Foi interessante ver sobre float, mas tenho a opinião que nesse caso que não foi usado __flexbox__ para alinhar o elemento a direita, poderia ter sido usado *margin-left: auto* que resolveria, tirando isso é interessante o uso de float no conjunto de texto e imagens ou um bloco e texto para que o texto circunde a imagem ou bloco.
 
-* Cada pacote recebeu uma classe com modificador (vide BEM), onde cada recebeu um background diferente.
+* Um pequeno adendo, quando aplicado *clear* em elemento não flutuante, sua margem superior entra em colapso com a margem inferior do elemento flutuante, por isso que foi usado a \<div>, para que a margem do elemento flutuante não colapsasse com a do pacote premium.
 
-* Para enfatizar o pacote premium, usando a classe modificadora (*package--premium*) combinando com a *package__title* foi colocado uma color branca. Ainda com a classe modificadora do pacote premium também foi estilizado o h2, com color #bbb.
-
-* Por fim, foi aidcionado um *:hover* e *:active* na classe *package* para adicionar um box-shadow quando esses eventos acontecerem.

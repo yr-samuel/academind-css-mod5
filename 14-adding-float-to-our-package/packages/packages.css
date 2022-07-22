@@ -39,6 +39,14 @@ main {
 
 .package--free {
     background: rgba(234, 252, 237, 0.95);
+    float: right;
+    border-left: 4px solid #0e4f1f;
+    border-right: none;
+    text-align: right;
+}
+
+.fix--free {
+    clear: right;
 }
 
 .package--premium {
